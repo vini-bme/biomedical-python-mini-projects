@@ -1,14 +1,17 @@
 # Biomedical Python Mini Projects
 
-This repository contains beginner biomedical data analysis projects implemented in Python.
+Focused on bridging biological data with computational analysis and early-stage modeling.
 
 Projects included:
 
-1. ECG Signal Visualization  
-Analyzed electrocardiogram signals from the MIT-BIH Arrhythmia Database using Python and Matplotlib.
+ECG Signal Visualization
+Analyzed electrocardiogram (ECG) signals from the MIT-BIH Arrhythmia Database using Python and Matplotlib to study cardiac electrical activity.
 
-2. Microscopy Cell Image Analysis  
-Implemented image processing techniques using OpenCV to analyze microscopy images and estimate cell counts.
+ECG Heartbeat Detection
+Implemented heartbeat peak detection using SciPy to identify cardiac cycles from ECG signals and visualize detected peaks on waveforms.
+
+Microscopy Cell Image Analysis
+Developed an image-processing pipeline using OpenCV to analyze microscopy images, applying thresholding and contour detection to estimate cell counts.
 
 Tools used:
-Python, NumPy, Matplotlib, OpenCV
+Python, NumPy, SciPy, Matplotlib, OpenCV
